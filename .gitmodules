@@ -1,0 +1,3 @@
+[submodule "eem/frame"]
+	path = eem/frame
+	url = /home/evmik/src/my_src/robocode_bots/robocode_bots.frame-lib
