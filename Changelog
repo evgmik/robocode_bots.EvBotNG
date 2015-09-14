@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1
+
+Inspire of my initial hope melee performance dropped, I think this
+due to bugs in the target weights selection. Will see if this one helps.
+
+1on1 performance improved, but there is only one target.
+
 ## v1.0
 Versions of 0.6 - 1.0 skipped, since v1.0 is quite different
 
