@@ -1,9 +1,17 @@
 # Changelog
 
-## v1.7
+## v1.8
 
 New framework.
 
+## v1.8
+
+New framework.
+Fixed bug introduced in v1.7:  in 1on1 my bot locked itself in a corner, due
+to no danger from corner, and only shallow angle search within orthogonal direction to
+the enemy.
+
+## v1.7
 Enemy fires guess factors gun too, new decaying stats guess factor gun, on
 1on1 motion more orthogonal to the line to the enemy.
 
