@@ -36,6 +36,9 @@ public class fighterBotConfig {
 		gunList.add( new flipLastGuessFactorGun() );
 	
 	       	gunList = new LinkedList<baseGun>();
+		masterBotGunMapForGameType.put("MyBotAlreadyWon", gunList);
+
+	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("1on1", gunList);
 		gunList.add( new circularGun() );
 		//gunList.add( new linearGun() );
@@ -93,12 +96,15 @@ public class fighterBotConfig {
 		gunList.add( new linearGun() );
 	
 	       	gunList = new LinkedList<baseGun>();
+		enemyBotGunMapForGameType.put("MyBotAlreadyWon", gunList);
+
+	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("1on1", gunList);
 		gunList.add( new circularGun() );
 		gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
-		//gunList.add( new guessFactorGun() );
-		//gunList.add( new decayingGuessFactorGun() );
+		gunList.add( new guessFactorGun() );
+		gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
 		
 	       	gunList = new LinkedList<baseGun>();
