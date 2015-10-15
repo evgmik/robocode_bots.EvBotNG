@@ -11,11 +11,58 @@ import eem.frame.motion.*;
 import eem.frame.gun.*;
 import eem.frame.misc.*;
 
+import java.util.*;
+
 public class fighterBotConfig {
 	protected baseRadar _radar;
 	protected basicMotion _motion;
 	protected gunManager _gunManager;
 	public botProxy proxy;
+	public HashMap<String, LinkedList<baseGun>> masterBotGunMapForGameType = new HashMap<String, LinkedList<baseGun>>();
+
+	public fighterBotConfig() {
+		LinkedList<baseGun> gunList;
+
+	       	gunList = new LinkedList<baseGun>();
+		masterBotGunMapForGameType.put("1on1", gunList);
+		gunList.add( new circularGun() );
+		//gunList.add( new linearGun() );
+		gunList.add( new headOnGun() );
+		gunList.add( new randomGun() );
+		gunList.add( new guessFactorGun() );
+		gunList.add( new decayingGuessFactorGun() );
+		gunList.add( new flipLastGuessFactorGun() );
+	
+	       	gunList = new LinkedList<baseGun>();
+		masterBotGunMapForGameType.put("melee1on1", gunList);
+		gunList.add( new circularGun() );
+		//gunList.add( new linearGun() );
+		gunList.add( new headOnGun() );
+		gunList.add( new randomGun() );
+		gunList.add( new guessFactorGun() );
+		gunList.add( new decayingGuessFactorGun() );
+		gunList.add( new flipLastGuessFactorGun() );
+		
+	       	gunList = new LinkedList<baseGun>();
+		masterBotGunMapForGameType.put("meleeMidle", gunList);
+		gunList.add( new circularGun() );
+		//gunList.add( new linearGun() );
+		gunList.add( new headOnGun() );
+		gunList.add( new randomGun() );
+		gunList.add( new guessFactorGun() );
+		gunList.add( new decayingGuessFactorGun() );
+		gunList.add( new flipLastGuessFactorGun() );
+		
+	       	gunList = new LinkedList<baseGun>();
+		masterBotGunMapForGameType.put("melee", gunList);
+		gunList.add( new circularGun() );
+		//gunList.add( new linearGun() );
+		gunList.add( new headOnGun() );
+		gunList.add( new randomGun() );
+		gunList.add( new guessFactorGun() );
+		gunList.add( new decayingGuessFactorGun() );
+		gunList.add( new flipLastGuessFactorGun() );
+	}
 
 	public void setDrivers( fighterBot bot,  gameInfo gInfo, boolean isItMasterBotDriver ) {
 		if ( isItMasterBotDriver ) {
@@ -25,6 +72,7 @@ public class fighterBotConfig {
 			//_motion = new dangerMapMotion( bot );
 			_motion = new exactPathDangerMotion( bot );
 			_gunManager = new masterBotGunManager( bot );
+			_gunManager.setGunsMap( masterBotGunMapForGameType );
 
 		} else {
 			// this bot is in charge of the enemy bot
