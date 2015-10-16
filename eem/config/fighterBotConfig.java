@@ -94,6 +94,7 @@ public class fighterBotConfig {
 		gunList.add( new headOnGun() );
 		gunList.add( new circularGun() );
 		gunList.add( new linearGun() );
+		gunList.add( new unknownGun() );
 	
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("MasterBotAlreadyWon", gunList);
@@ -106,6 +107,7 @@ public class fighterBotConfig {
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
+		gunList.add( new unknownGun() );
 		
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("melee1on1", gunList);
@@ -115,6 +117,7 @@ public class fighterBotConfig {
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
+		gunList.add( new unknownGun() );
 		
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("meleeVeterans", gunList);
@@ -124,6 +127,7 @@ public class fighterBotConfig {
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
+		gunList.add( new unknownGun() );
 		
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("meleeSeasoned", gunList);
@@ -133,6 +137,7 @@ public class fighterBotConfig {
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
+		gunList.add( new unknownGun() );
 		
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("melee", gunList);
@@ -142,6 +147,7 @@ public class fighterBotConfig {
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
+		gunList.add( new unknownGun() );
 		
 	}
 
