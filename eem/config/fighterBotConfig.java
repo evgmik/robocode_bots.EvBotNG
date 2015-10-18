@@ -102,11 +102,12 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("1on1", gunList);
 		gunList.add( new circularGun() );
-		gunList.add( new linearGun() );
+		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
-		//gunList.add( new guessFactorGun() );
-		//gunList.add( new decayingGuessFactorGun() );
-		//gunList.add( new flipLastGuessFactorGun() );
+		gunList.add( new guessFactorGun() );
+		gunList.add( new decayingGuessFactorGun() );
+		gunList.add( new flipLastGuessFactorGun() );
+		//gunList.add( new safetyCorridorGun() );
 		gunList.add( new unknownGun() );
 		
 	       	gunList = new LinkedList<baseGun>();
