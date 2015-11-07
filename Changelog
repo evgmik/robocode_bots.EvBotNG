@@ -7,6 +7,8 @@ New framework.
 Reverting to v3.1. I.e., replacing circular accelerating gun back to just
 circular. It gives a bit worse performance in both melee and 1on1.
 
+Makefile adds source files to jar.
+
 ## v3.2
 
 New framework.
