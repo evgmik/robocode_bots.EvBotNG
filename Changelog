@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.4
+
+New framework.
+
+New assistedGFGun gun. It is added to array of virtual guns for the master bot
+in all fight types and for enemy  bots in 1on1 situations.
+
 ## v3.3
 
 New framework.
