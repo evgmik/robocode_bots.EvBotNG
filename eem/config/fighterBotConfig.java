@@ -47,6 +47,7 @@ public class fighterBotConfig {
 		gunList.add( new headOnGun() );
 		gunList.add( new randomGun() );
 		gunList.add( new guessFactorGun() );
+		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
 		gunList.add( new flipLastGuessFactorGun() );
 	
@@ -58,6 +59,7 @@ public class fighterBotConfig {
 		gunList.add( new headOnGun() );
 		gunList.add( new randomGun() );
 		gunList.add( new guessFactorGun() );
+		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
 		gunList.add( new flipLastGuessFactorGun() );
 		
@@ -67,6 +69,7 @@ public class fighterBotConfig {
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
+		gunList.add( new assistedGFGun() );
 		//gunList.add( new randomGun() );
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
@@ -78,6 +81,7 @@ public class fighterBotConfig {
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
+		gunList.add( new assistedGFGun() );
 		//gunList.add( new randomGun() );
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
@@ -89,6 +93,7 @@ public class fighterBotConfig {
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
+		gunList.add( new assistedGFGun() );
 		//gunList.add( new randomGun() );
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
@@ -113,6 +118,7 @@ public class fighterBotConfig {
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new guessFactorGun() );
+		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
 		gunList.add( new flipLastGuessFactorGun() );
 		//gunList.add( new safetyCorridorGun() );
@@ -123,6 +129,7 @@ public class fighterBotConfig {
 		gunList.add( new headOnGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new circularGun() );
+		gunList.add( new assistedGFGun() );
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new guessFactorGun() );
 		//gunList.add( new decayingGuessFactorGun() );
