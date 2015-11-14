@@ -1,5 +1,12 @@
 # Changelog
 
+## v3.6
+
+New framework.
+
+Each GF gun has its own threshold for goodness decision. As result decaying GF
+guns fire now.
+
 ## v3.5
 
 New framework.
