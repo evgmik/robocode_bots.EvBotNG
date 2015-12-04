@@ -1,5 +1,16 @@
 # Changelog
 
+## v4.1
+
+New framework.
+
+Added ability to calculate overall danger of a wave from GF stats, it is not
+used for now, since I do not see score improvements. But should help with bot
+GF flattener in the future.
+
+Attempt to use x.x5 power bullet detection bug in the bots based on
+BasicSurfer.
+
 ## v4.0
 
 New framework.
