@@ -1,5 +1,15 @@
 # Changelog
 
+## v4.4
+
+New framework.
+
+Fixed gun delayed info accounting.
+
+All gun correct the firing solution to make firing angle along the wall
+if the firing bot is sufficiently close to the wall. This should waste less
+bullets.
+
 ## v4.3
 
 New framework.
