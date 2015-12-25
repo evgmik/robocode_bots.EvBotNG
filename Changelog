@@ -1,5 +1,17 @@
 # Changelog
 
+## v4.5
+
+New framework.
+
+Added aim at everyone logic. 
+
+Commented out the fired count weight when deciding on a robot weight. 
+
+Bot weights calculated only once per tic.
+
+Added debugging graphics: firing angles and gun performance indication.
+
 ## v4.4
 
 New framework.
