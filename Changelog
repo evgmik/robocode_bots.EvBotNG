@@ -1,5 +1,13 @@
 # Changelog
 
+## v4.6
+
+New framework.
+
+Weight due to gun performance redone/increased.
+
+Redone the logic for the best firing solution based on weight distribution.
+
 ## v4.5
 
 New framework.
