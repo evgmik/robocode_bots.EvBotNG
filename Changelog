@@ -1,5 +1,22 @@
 # Changelog
 
+## v5.1
+
+New framework.
+
+v5.0 was better in roborumble but I lost in meleerumble. So some
+readjustments:
+
+-  Reduced number of neighbors in kdtreeGuessFactorGun 1000->100.
+-  kdtree has new dimentions distance to wall ahead and enemies number.
+
+## v5.0
+
+New framework.
+
+Added KdTree gun with distance, bulletSpeed, lateral speed, and acceleration
+coordinates.
+
 ## v4.9
 
 New framework.
