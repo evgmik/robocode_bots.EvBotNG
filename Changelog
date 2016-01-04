@@ -1,5 +1,14 @@
 # Changelog
 
+## v5.2
+
+New framework.
+
+bug fix: distance to the wall ahead was not assigned for enemy bots stat points
+
+-  botStatPoint now contains timeSinceVelocityChange
+-  KdTree has new dimention: timeSinceVelocityChange
+
 ## v5.1
 
 New framework.
