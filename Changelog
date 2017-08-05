@@ -1,0 +1,363 @@
+# Changelog
+
+## v6.1
+
+Disable fancy bullet energy search. I.e. back to v5.5 bullet logic.
+
+## v6.0
+
+Added track of my score (all game types) and enemy (for 1on1 only). Using it,
+attempting to optimize the APS by changing "ideal bullet energy".
+
+## v5.5
+
+Revert bullet energy back for the case of melee, 1on1 stays the same as in v5.4.
+
+## v5.4
+
+Some simplification of the KdTree coordinate code. It is more general and
+located in one place now.
+
+Modified bulletEnergy logic to pick 1.95 unless enemy is closer than 140.
+This energy selection was spotted in Chase's cs.Nene 1.05 bot.
+Test shows that it drastically improve score against stronger bots.
+
+## v5.3
+
+master bot takes gun performance from the KdTree, i.e., it does not use
+overall gun performance but it is more adaptive. Rationale, some gun a better
+at certain distances/situations.
+
+## v5.2
+
+New framework.
+
+bug fix: distance to the wall ahead was not assigned for enemy bots stat points
+
+-  botStatPoint now contains timeSinceVelocityChange
+-  KdTree has new dimention: timeSinceVelocityChange
+
+## v5.1
+
+New framework.
+
+v5.0 was better in roborumble but I lost in meleerumble. So some
+readjustments:
+
+-  Reduced number of neighbors in kdtreeGuessFactorGun 1000->100.
+-  kdtree has new dimentions distance to wall ahead and enemies number.
+
+## v5.0
+
+New framework.
+
+Added KdTree gun with distance, bulletSpeed, lateral speed, and acceleration
+coordinates.
+
+## v4.9
+
+New framework.
+
+Slightly decreased gun performance weight.
+
+## v4.8
+
+New framework.
+
+Do not lock radar if no firing solutions are present.
+
+Disable 
+-   decrease fire to minimum if we are below enemy (in 1on1 situations),
+from the  previous version. This gave significant drop in 1on1 APS.
+
+Redone logic of do not fire. Essentially, I try to decrease bullet power ( to 0
+if needed) to keep my energy above enemy if I am on 1on1 or no bullets in the air.
+
+## v4.7
+
+New framework.
+
+Energy management:
+-   increase fire power if we have significant surplus of energy, 
+-   decrease fire to minimum if we are below enemy (in 1on1 situations),
+-   do not fire into non firing enemy, if it brings my power below the enemy
+
+## v4.6
+
+New framework.
+
+Weight due to gun performance redone/increased.
+
+Redone the logic for the best firing solution based on weight distribution.
+
+## v4.5
+
+New framework.
+
+Added aim at everyone logic. 
+
+Commented out the fired count weight when deciding on a robot weight. 
+
+Bot weights calculated only once per tic.
+
+Added debugging graphics: firing angles and gun performance indication.
+
+## v4.4
+
+New framework.
+
+Fixed gun delayed info accounting.
+
+All gun correct the firing solution to make firing angle along the wall
+if the firing bot is sufficiently close to the wall. This should waste less
+bullets.
+
+## v4.3
+
+New framework.
+
+Increased bullet energy a bit, v4.2 change greately increased survival in
+melee, but APS dropped by about 1%.
+
+## v4.2
+
+New framework.
+
+x.x5 exploit redone to round to smaller side
+
+Modified bullet energy vs distance formula to die off quickly, it improves
+survival
+
+## v4.1
+
+New framework.
+
+Added ability to calculate overall danger of a wave from GF stats, it is not
+used for now, since I do not see score improvements. But should help with bot
+GF flattener in the future.
+
+Attempt to use x.x5 power bullet detection bug in the bots based on
+BasicSurfer.
+
+## v4.0
+
+New framework.
+
+Bullets and wave danger is calculated on the shadow and guess factors, i.e. no
+real space distance calculations. This gives tremendous speed up. This new way
+of calculations justifies bumping up the major version.
+
+Safety corridors are properly taken in account for wave danger calculations.
+
+Nice plot of the GF danger for enemy bots wave.
+
+## v3.7
+
+New framework.
+
+Bullet and bots shadows are taken in account.
+
+## v3.6
+
+New framework.
+
+Each GF gun has its own threshold for goodness decision. As result decaying GF
+guns fire now.
+
+## v3.5
+
+New framework.
+
+Retune the point at which GF guns return results.
+
+## v3.4
+
+New framework.
+
+New assistedGFGun gun. It is added to array of virtual guns for the master bot
+in all fight types and for enemy  bots in 1on1 situations.
+
+## v3.3
+
+New framework.
+
+Reverting to v3.1. I.e., replacing circular accelerating gun back to just
+circular. It gives a bit worse performance in both melee and 1on1.
+
+Makefile adds source files to jar.
+
+## v3.2
+
+New framework.
+
+Replaced all occurrences of circular gun with circular accelerating one.
+
+## v3.1
+
+New framework.
+
+Master bot uses in melee  only linear and head on guns, except when it comes to 1on1
+
+## v3.0
+
+New framework.
+
+Remove attractive potential from energetic but non firing bot.
+
+## v2.9
+
+New framework.
+
+CoreBot caches time, for getTime() calls.
+
+If bot does not fire, it is taken in account as its reduced danger. So my bot
+will come closer, if bot has no energy to fire it will ram it.
+
+## v2.8
+
+New framework.
+
+Reverted target selection logic to v2.6
+
+If a point is the closest to enemy, this enemy danger raius increased, to push
+away my bot from being the closest to the enemy. Should increase
+survivability.
+
+Even not the closest enemy fires at master bot sometimes, this helps with no
+motion freeze when all other bots are the closest to somenone else. But some
+no so advance bot fire at any target in a view (walls, crazy, etc ).
+
+## v2.7
+
+New framework.
+
+Redone target selection logic
+
+## v2.6
+
+New framework.
+
+Revert back number largest number of bots when I fire a wave to everyone: 10->4
+
+## v2.5
+
+New framework.
+
+When counting hits and missed fire, do it only for waves which passed over a
+bot. This avoid counting as missed the waves which are still in the air when
+enemy dies, also for the case of virtual bullets, it does not count as a miss
+the case when radar was looking away during the wave pass over the bot.
+
+Increase number of bots to which I fire virtual waves at melee: 4 -> 10
+
+## v2.4
+
+New framework.
+
+Fixed bug, with double counting of the master bot gun shots, which was
+introduced in v2.3
+
+## v2.3
+
+New framework.
+Extended guns set firing in 1on1
+
+## v2.2
+
+new framework
+
+In melee radar lock now 2 clicks earlier, than before. Seems to boost score
+with my test set.
+
+Circular gun falls back to linear gun scenario, if not enough history
+available.
+
+Master bot does not fire linear gun anymore, circular one does its function.
+
+## v2.1
+
+new framework
+
+Remove guess factor based guns from the enemy guns array.
+These guns were introduced since v1.6 but apparently make the master bot motion more
+predictive.  It hearts IWillFireNoBullets roborumble stats,
+up to version 2.0 the APS is lower.
+Buy now enemy firing and master bot motion logic is the same as it was in
+v1.6
+
+Added enemy wave count, to implement lagging guess factor gun.
+
+## v2.0
+
+bug fix: guess factor use the lateral velocity from wrong time
+
+New gun: flipLastGuessFactorGun. I note that many bots including my own
+have next wave guess factor close to oposite of the previous wave. This gun
+tries to exploit it.
+
+## v1.9
+
+New framework.
+Undo orthogonal motion. It seems to be a weaker motion
+
+## v1.8
+
+New framework.
+Fixed bug introduced in v1.7:  in 1on1 my bot locked itself in a corner, due
+to no danger from corner, and only shallow angle search within orthogonal direction to
+the enemy.
+
+## v1.7
+Enemy fires guess factors gun too, new decaying stats guess factor gun, on
+1on1 motion more orthogonal to the line to the enemy.
+
+## v1.6
+New framework with guess factor gun. Some optimization to reduce unnecessary
+CPU load.
+
+## v1.5
+
+Added bullet shielders detection, and fire with offset to circumvent it.
+If bot hit enemy bullet, then enemy wave which carries this bullet is removed,
+since it has no danger.
+
+Exact path is attempting to find a better path every turn, but with smaller
+number of trials than full search.
+
+## v1.4
+New framework with added random gun
+
+## v1.4
+New framework with added random gun
+
+## v1.3
+New framework with fixed circular gun
+
+## v1.2
+New framework with circular gun
+
+## v1.1
+
+Inspire of my initial hope melee performance dropped, I think this
+due to bugs in the target weights selection. Will see if this one helps.
+
+1on1 performance improved, but there is only one target.
+
+## v1.0
+Versions of 0.6 - 1.0 skipped, since v1.0 is quite different
+
+Framework lib v1.0, I expect drastic improvements in melee.
+
+
+## v0.6
+Using v0.6 framework lib
+
+## v0.5
+Using v0.5 framework lib
+
+
+## v0.4 - 0.1
+lost in history since the frame work was taken from IWillFireNoBullet robot.
+So see its version history, as well as, framework lib history log.
+
+
