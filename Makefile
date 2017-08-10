@@ -20,7 +20,8 @@ TESTJAR    = $(SUPERPACKADE).$(BOTNAME)_$(TESTVERSION).jar
 RELEASEJAR = $(SUPERPACKADE).$(BOTNAME)_$(VERSION).jar
 
 OUTDIR = out
-JAVAC = /usr/lib/jvm/java-7-openjdk-i386/bin/javac
+#JAVAC = /usr/lib/jvm/java-7-openjdk-i386/bin/javac
+JAVAC = /usr/bin/javac
 JFLAGS = -d $(OUTDIR) -classpath $(ROBOCODEJAR): -Xlint:unchecked
 
 SRC = $(shell find $(SUPERPACKADE) -type f -name *.java)
