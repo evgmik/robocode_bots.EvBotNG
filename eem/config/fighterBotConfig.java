@@ -42,7 +42,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("1on1", gunList);
 		gunList.add( new circularGun() );
-		//gunList.add( new circularAccelGun() );
+		gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new kdtreeGuessFactorGun() );
