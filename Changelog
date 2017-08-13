@@ -1,5 +1,14 @@
 # Changelog
 
+## v6.2
+
+Main change in 1on1 surf only oldest (hopefully closest) wave, help against
+GF statistics aiming guns.
+
+Proper circular gun with accelerating target
+
+using frame lib v6.2
+
 ## v6.1
 
 Disable fancy bullet energy search. I.e. back to v5.5 bullet logic.
