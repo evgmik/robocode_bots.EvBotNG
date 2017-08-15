@@ -68,7 +68,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("meleeVeterans", gunList);
 		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
+		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new assistedGFGun() );
@@ -80,7 +80,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("meleeSeasoned", gunList);
 		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
+		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new assistedGFGun() );
@@ -92,7 +92,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("melee", gunList);
 		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
+		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new assistedGFGun() );
