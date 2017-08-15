@@ -1,5 +1,16 @@
 # Changelog
 
+## v6.3
+
+Note the v6.2 was a disaster for melee, the bot moved from 10th to 14th place
+(the bot lost 1.5% in APS and 3.6% in survival).
+In 1on1 performance is just a bit better same, at least it was on 80th place and still is,
+occasionally popping to 79th.
+
+I  attribute the  lose in  melee  to the  bad  choice of  guns, looks  like
+addition of the  accelerated circular gun is the bad  idea. The revised gun
+list is matching v6.1 set closely, though still not the same.
+
 ## v6.2
 
 Main change in 1on1 surf only oldest (hopefully closest) wave, help against
