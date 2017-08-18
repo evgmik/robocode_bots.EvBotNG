@@ -1,5 +1,11 @@
 # Changelog
 
+## v6.4
+
+After dust settled v6.3 is still down in APS 65.8% vs 67.46, also places wise
+it moved from 10th to 14th again. So I am reverting melee gun set to be the
+same as in v6.1. No changes in 1on1 relevant settings.
+
 ## v6.3
 
 Note the v6.2 was a disaster for melee, the bot moved from 10th to 14th place
