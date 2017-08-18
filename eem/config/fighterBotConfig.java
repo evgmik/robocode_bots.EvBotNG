@@ -42,7 +42,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("1on1", gunList);
 		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
+		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new kdtreeGuessFactorGun() );
@@ -55,7 +55,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		masterBotGunMapForGameType.put("melee1on1", gunList);
 		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
+		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new randomGun() );
@@ -132,12 +132,11 @@ public class fighterBotConfig {
 		gunList.add( new headOnGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new kdtreeGuessFactorGun() );
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new guessFactorGun() );
-		gunList.add( new decayingGuessFactorGun() );
+		//gunList.add( new decayingGuessFactorGun() );
 		//gunList.add( new flipLastGuessFactorGun() );
 		gunList.add( new unknownGun() );
 		
