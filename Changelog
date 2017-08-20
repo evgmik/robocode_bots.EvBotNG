@@ -1,5 +1,12 @@
 # Changelog
 
+## v6.5
+
+New framework. With reworked kdTree and guess factors logic.
+
+v6.4 still was not as good as v6.1 in melee, but may be this is due to new bot
+inclusion.
+
 ## v6.4
 
 After dust settled v6.3 is still down in APS 65.8% vs 67.46, also places wise
