@@ -1,5 +1,9 @@
 # Changelog
 
+## v6.6
+
+using more of kdTree gun in melee and 1on1, new frame lib
+
 ## v6.5
 
 New framework. With reworked kdTree and guess factors logic.
