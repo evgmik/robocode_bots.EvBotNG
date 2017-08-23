@@ -45,8 +45,15 @@ public class fighterBotConfig {
 		gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
-		gunList.add( new kdtreeGuessFactorGun() );
+		gunList.add( new kdtreeGuessFactorGun(50) );
+		gunList.add( new kdtreeGuessFactorGun(100) );
+		gunList.add( new kdtreeGuessFactorGun(200) );
+		gunList.add( new kdtreeGuessFactorGun(400) );
+		gunList.add( new kdtreeGuessFactorGun(800) );
+		gunList.add( new kdtreeGuessFactorGun(1600) );
 		gunList.add( new guessFactorGun() );
+		//gunList.add( new kdtreeGuessFactorGun(800, true) ); // bad idea
+		//gunList.add( new kdtreeGuessFactorGun(1600, true) ); // bad idea
 		gunList.add( new randomGun() );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
@@ -60,7 +67,7 @@ public class fighterBotConfig {
 		gunList.add( new headOnGun() );
 		gunList.add( new randomGun() );
 		gunList.add( new guessFactorGun() );
-		gunList.add( new kdtreeGuessFactorGun() );
+		gunList.add( new kdtreeGuessFactorGun(400) );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
 		gunList.add( new flipLastGuessFactorGun() );
@@ -115,12 +122,14 @@ public class fighterBotConfig {
 
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("1on1", gunList);
-		gunList.add( new circularGun() );
-		gunList.add( new circularAccelGun() );
+		//gunList.add( new circularGun() );
+		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
+		gunList.add( new kdtreeGuessFactorGun(400) );
+		gunList.add( new kdtreeGuessFactorGun(800) );
+		gunList.add( new kdtreeGuessFactorGun(1600) );
 		gunList.add( new guessFactorGun() );
-		gunList.add( new kdtreeGuessFactorGun() );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
 		gunList.add( new flipLastGuessFactorGun() );
@@ -134,7 +143,7 @@ public class fighterBotConfig {
 		gunList.add( new circularGun() );
 		gunList.add( new circularAccelGun() );
 		gunList.add( new assistedGFGun() );
-		gunList.add( new kdtreeGuessFactorGun() );
+		gunList.add( new kdtreeGuessFactorGun(400) );
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new guessFactorGun() );
 		gunList.add( new decayingGuessFactorGun() );
