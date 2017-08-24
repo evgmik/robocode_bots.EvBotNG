@@ -1,5 +1,15 @@
 # Changelog
 
+## v6.8
+
+Circular gun back to enemy 1on1 list. Otherwise my APS drops against circular
+targeters.
+
+- new framelib
+
+Check performance of unknownGun. If it high, my guess about enemy guns is no
+good and I should avoid them less.
+
 ## v6.7
 
 - new framelib
