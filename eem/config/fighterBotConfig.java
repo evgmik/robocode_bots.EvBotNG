@@ -66,9 +66,9 @@ public class fighterBotConfig {
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new randomGun() );
-		gunList.add( new guessFactorGun() );
 		gunList.add( new kdtreeGuessFactorGun(200) );
 		gunList.add( new kdtreeGuessFactorGun(400) );
+		gunList.add( new guessFactorGun() );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
 		gunList.add( new flipLastGuessFactorGun() );
@@ -129,7 +129,7 @@ public class fighterBotConfig {
 
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("1on1", gunList);
-		//gunList.add( new circularGun() );
+		gunList.add( new circularGun() );
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
