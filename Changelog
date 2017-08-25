@@ -1,5 +1,10 @@
 # Changelog
 
+## v6.9
+
+- new framelib
+  - wave danger components reweighted
+
 ## v6.8
 
 Circular gun back to enemy 1on1 list. Otherwise my APS drops against circular
