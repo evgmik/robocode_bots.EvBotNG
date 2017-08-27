@@ -1,5 +1,15 @@
 # Changelog
 
+## v7.0
+
+- new framelib
+  - Calculations speed up: wave danger calculated based on GF arrays which calculated only once
+  - wave danger logic redone, probably need to retune coefficients between
+    bullets and GF dangers in a wave
+  - regression: removed lateral velocity logic for GF calculation.
+    - I need it back as well as to check logic
+  - improved readability of profiler output
+
 ## v6.9
 
 - new framelib
