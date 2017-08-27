@@ -1,5 +1,13 @@
 # Changelog
 
+## v7.1
+
+- new framelib
+  - retuned GF and Bullets weights for wave danger. GF has much smaller weights.
+    - looks like it is worse against rambots but otherwise higher scores
+- added code to fetch stats from the rumble web site
+
+
 ## v7.0
 
 - new framelib
