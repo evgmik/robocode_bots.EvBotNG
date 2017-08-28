@@ -1,5 +1,11 @@
 # Changelog
 
+## v7.2
+
+- new framelib
+  - retuned GF and Bullets weights for wave danger. GF has a bit higher weights.
+- added scripts to collect literumble stats
+
 ## v7.1
 
 - new framelib
