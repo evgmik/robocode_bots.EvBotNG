@@ -2,3 +2,7 @@
 *.jar
 out
 *.swp
+
+stats/cache/*
+stats/*dat
+stats/*json
