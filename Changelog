@@ -1,5 +1,13 @@
 # Changelog
 
+## v7.3
+
+- new framelib
+  - find a bug introduced somewhere around v7.0: the lateral velocity sign was
+     stripped off in the gun kdTree coordinates calculations.
+- note: APS wise v7.2 is about the same as v7.1
+- historical stats do plot now, fun to see APS vs version number
+
 ## v7.2
 
 - new framelib
