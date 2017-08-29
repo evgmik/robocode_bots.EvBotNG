@@ -23,8 +23,8 @@ do
 	if [ $? != 0 ]
 	then
 		#result="{}"
-		result="{\"name\":\"${bot}\", \"APS\":0}"
-		continue
+		result="{\"latest\":NaN, \"APS\":NaN,\"name\":\"${bot}\"}"
+		#continue
 	fi
 	if [ $first == 1 ]
        	then
