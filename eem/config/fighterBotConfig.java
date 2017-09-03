@@ -133,6 +133,7 @@ public class fighterBotConfig {
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
+		gunList.add( new realHitsGun(400) );
 		gunList.add( new kdtreeGuessFactorGun(400) );
 		gunList.add( new kdtreeGuessFactorGun(800) );
 		gunList.add( new kdtreeGuessFactorGun(1600) );
@@ -146,6 +147,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("melee1on1", gunList);
 		gunList.add( new headOnGun() );
+		gunList.add( new realHitsGun(400) );
 		//gunList.add( new linearGun() );
 		gunList.add( new circularGun() );
 		gunList.add( new assistedGFGun() );
@@ -159,6 +161,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("meleeVeterans", gunList);
 		gunList.add( new headOnGun() );
+		gunList.add( new realHitsGun(400) );
 		//gunList.add( new linearGun() );
 		gunList.add( new circularGun() );
 		//gunList.add( new circularAccelGun() );
@@ -170,6 +173,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("meleeSeasoned", gunList);
 		gunList.add( new headOnGun() );
+		gunList.add( new realHitsGun(400) );
 		//gunList.add( new linearGun() );
 		gunList.add( new circularGun() );
 		//gunList.add( new circularAccelGun() );
@@ -181,6 +185,7 @@ public class fighterBotConfig {
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("melee", gunList);
 		gunList.add( new headOnGun() );
+		gunList.add( new realHitsGun(400) );
 		//gunList.add( new linearGun() );
 		//gunList.add( new circularGun() );
 		//gunList.add( new guessFactorGun() );

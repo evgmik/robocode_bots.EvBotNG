@@ -1,5 +1,13 @@
 # Changelog
 
+## v7.4
+
+- new framelib
+  - Added ability to track at which GF enemy hits my bot, consequently I can avoid
+    such GF even if the gun is unknown
+- added realHitsGun to enemy gun array at all stages
+- improved statistics graphics
+
 ## v7.3
 
 - new framelib
