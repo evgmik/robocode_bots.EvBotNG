@@ -1,5 +1,13 @@
 # Changelog
 
+## v7.5
+
+- new framelib
+  - Improved search of final destination: points outside of battlefield use to
+    be thrown and that counted as an attempt. Now such displacement rotated into
+    battlefield. So attempts does real search.
+- experimental: 1on1 enemy bot equipped only with real hits gun
+
 ## v7.4
 
 - new framelib
