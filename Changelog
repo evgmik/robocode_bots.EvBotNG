@@ -1,5 +1,13 @@
 # Changelog
 
+## v7.6
+
+- added back HoT and Circular gun to 1on1 situation
+- new framelib
+  - Wave now have danger from real hits as GF danger values. This replaces old
+    virtual GF hits danger.
+  - Consequently, GF danger from real hits is larger than virtual bullets.
+
 ## v7.5
 
 - new framelib
