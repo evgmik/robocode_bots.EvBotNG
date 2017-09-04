@@ -129,10 +129,10 @@ public class fighterBotConfig {
 
 	       	gunList = new LinkedList<baseGun>();
 		enemyBotGunMapForGameType.put("1on1", gunList);
-		//gunList.add( new circularGun() );
+		gunList.add( new circularGun() );
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
-		//gunList.add( new headOnGun() );
+		gunList.add( new headOnGun() );
 		gunList.add( new realHitsGun(10) );
 		//gunList.add( new kdtreeGuessFactorGun(400) );
 		//gunList.add( new kdtreeGuessFactorGun(800) );
