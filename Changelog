@@ -1,6 +1,19 @@
 # Changelog
 
+## v7.9
+
+- new framelib
+  - kdTree gun is smoothed too now, logically it is the same v7.6 but I hope
+    that CPU load is smaller. I am using gfCoverage from gfHit now.
+- when stats are downloaded, call to API asks for bare minimum
+
+
 ## v7.8
+
+In retrospect: in this version 1on1 APS performance is on pair with v7.6 (just a
+bit smaller). Melee APS performance is a bit better than in v7.7,
+but survival is 3% worse. Most likely it is the same as v7.7
+within errorbars.
 
 - new framelib
   - gf guns now smoothed as it was in v7.6, kdTree is still not
