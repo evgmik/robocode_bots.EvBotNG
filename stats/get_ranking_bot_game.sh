@@ -18,7 +18,7 @@ force_update="$3"
 # this one allows to see back in history but cannot give place in rumble
 # example
 # http://literumble.appspot.com/BotDetails?game=roborumble&name=eem.EvBotNG%20v7.0
-base_url="http://literumble.appspot.com/BotDetails?api=true"
+base_url="http://literumble.appspot.com/BotDetails?api=true&limit=0"
 url="${base_url}"'&'"game=${game}"'&'"name=${bot}"
 
 
