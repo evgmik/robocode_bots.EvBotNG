@@ -1,6 +1,15 @@
 # Changelog
 
+## v7.7
+
+- new framelib
+  - disabled hit GF spill to nearby bins, i.e. no smoothing
+
 ## v7.6
+
+In retrospect v7.6 is so far the best of mine in 1on1 with APS 78.7 and one of
+the worst in melee. I am guessing wave danger change affected melee
+negatively.
 
 - added back HoT and Circular gun to 1on1 situation
 - new framelib
