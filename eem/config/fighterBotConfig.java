@@ -133,7 +133,7 @@ public class fighterBotConfig {
 		//gunList.add( new circularAccelGun() );
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
-		gunList.add( new realHitsGun(10) );
+		gunList.add( new realHitsGun(1) );
 		//gunList.add( new kdtreeGuessFactorGun(400) );
 		//gunList.add( new kdtreeGuessFactorGun(800) );
 		//gunList.add( new kdtreeGuessFactorGun(1600) );
