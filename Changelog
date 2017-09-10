@@ -1,6 +1,17 @@
 # Changelog
 
+## v8.0
+
+1on1 opponent gun switched:
+gunList.add( new realHitsGun(10) ) --> gunList.add( new realHitsGun(1) );
+On some gui rounds it helped a lot but not in RoboRunner. Let's see how
+roborumlbe will react on it.
+
 ## v7.9
+
+In retrospect: so fat this version is the best in 1on1 APS performance, almost
+1% APS boost wnen compared to any other versions. Melee performance went down.
+Looks like melee is CPU limited.
 
 - new framelib
   - kdTree gun is smoothed too now, logically it is the same v7.6 but I hope
