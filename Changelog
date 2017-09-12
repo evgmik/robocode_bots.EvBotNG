@@ -1,9 +1,15 @@
 # Changelog
 
+## v8.3
+
+realHits(1) -> realHits(10) for all enemy guns
+
 ## v8.2
 
 Melee gun is the  same as v6.1 except 1on1melee, 1on1 is the same.
 Tuning melee guns to match v6.1 closer.
+
+In retrospect: 1on1 is a bit worse than 7.9. Melee is much better.
 
 ## v8.1
 
