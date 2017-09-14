@@ -1,8 +1,20 @@
 # Changelog
 
+## v8.4
+
+- new framelib
+  - kdtreeGuessFactorGun weights points by distance
+  - some code clean up, should not affect performance
+
 ## v8.3
 
 realHits(1) -> realHits(10) for all enemy guns
+
+in retrospect: 
+- 1on1 almost the same performace as 8.0, but a tiny bit worse
+  than 7.9, which is weird since logic is the same.
+- melee is worse than 8.2 by a noticeable bit
+
 
 ## v8.2
 
