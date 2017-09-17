@@ -73,12 +73,16 @@ public class fighterBotConfig {
 		//gunList.add( new linearGun() );
 		gunList.add( new headOnGun() );
 		gunList.add( new randomGun() );
-		gunList.add( new kdtreeGuessFactorGun(50) );
-		gunList.add( new kdtreeGuessFactorGun(100) );
-		gunList.add( new kdtreeGuessFactorGun(200) );
-		gunList.add( new kdtreeGuessFactorGun(400) );
-		gunList.add( new kdtreeGuessFactorGun(800) );
+		// -------------------------------------------------------------
+		// SUPER IMPORTANT FOR PROPER CACHING
+		// TO CALL kdtreeGuessFactorGun IN DESCENDANT neighborNUM ORDER
 		gunList.add( new kdtreeGuessFactorGun(1600) );
+		gunList.add( new kdtreeGuessFactorGun(800) );
+		gunList.add( new kdtreeGuessFactorGun(400) );
+		gunList.add( new kdtreeGuessFactorGun(200) );
+		gunList.add( new kdtreeGuessFactorGun(100) );
+		gunList.add( new kdtreeGuessFactorGun(50) );
+		// -------------------------------------------------------------
 		gunList.add( new guessFactorGun() );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
