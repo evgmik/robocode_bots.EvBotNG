@@ -1,9 +1,19 @@
 # Changelog
 
+## v8.6
+
+- changed kdTree guns order from high to low, to use kdTree cache,
+  there is no change in guns otherwise
+- new framelib
+  - kdTree type guns are using cache (expect less skipped turns)
+  - guns report their hit names with histogram
+
 ## v8.5
 
 - new framelib
   - fixed double counting of realHits
+
+in retrospect: similar performance in 1on1, slightly worse in melee
 
 ## v8.4
 
