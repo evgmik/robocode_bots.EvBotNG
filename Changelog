@@ -1,11 +1,21 @@
 # Changelog
 
+## v8.8
+
+- new framelib
+  - Fixed caching bug introduced in 8.6. There were no cache use. Which led to
+    longer calculations.
+  - Added option to bypass the cache for kdTree guns
+
 ## v8.7
 
 - kdtree guns changed. High order kdTrees are removed, several low order are added
 - new framelib
   - added functions to calculate battle field constrained MEA
   - kdTree coordinates calculated VERY different now
+
+in retrospect this version is better than 8.6, though not is good as some
+previous ones.
 
 ## v8.6
 
@@ -18,6 +28,9 @@
 in retrospect: performance dropped quite significantly in 1on1 and melee,
 maybe kdTree cluseter caching is not such a great idea. 
 As far as I see, neighbors selection is very fast already.
+
+Caching had a bug as result extra calculations and no cache use at all. It was
+fixed in v8.8
 
 ## v8.5
 
