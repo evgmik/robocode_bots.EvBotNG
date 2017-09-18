@@ -1,5 +1,12 @@
 # Changelog
 
+## v8.7
+
+- kdtree guns changed. High order kdTrees are removed, several low order are added
+- new framelib
+  - added functions to calculate battle field constrained MEA
+  - kdTree coordinates calculated VERY different now
+
 ## v8.6
 
 - changed kdTree guns order from high to low, to use kdTree cache,
@@ -7,6 +14,10 @@
 - new framelib
   - kdTree type guns are using cache (expect less skipped turns)
   - guns report their hit names with histogram
+
+in retrospect: performance dropped quite significantly in 1on1 and melee,
+maybe kdTree cluseter caching is not such a great idea. 
+As far as I see, neighbors selection is very fast already.
 
 ## v8.5
 
