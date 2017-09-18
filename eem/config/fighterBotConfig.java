@@ -48,14 +48,11 @@ public class fighterBotConfig {
 		// -------------------------------------------------------------
 		// SUPER IMPORTANT FOR PROPER CACHING
 		// TO CALL kdtreeGuessFactorGun IN DESCENDANT neighborNUM ORDER
-		gunList.add( new kdtreeGuessFactorGun(1600) );
-		gunList.add( new kdtreeGuessFactorGun(800) );
-		gunList.add( new kdtreeGuessFactorGun(400) );
 		gunList.add( new kdtreeGuessFactorGun(200) );
 		gunList.add( new kdtreeGuessFactorGun(100) );
 		gunList.add( new kdtreeGuessFactorGun(50) );
-		//gunList.add( new kdtreeGuessFactorGun(10) );
-		//gunList.add( new kdtreeGuessFactorGun(5) );
+		gunList.add( new kdtreeGuessFactorGun(10) );
+		gunList.add( new kdtreeGuessFactorGun(5) );
 		gunList.add( new kdtreeGuessFactorGun(1) );
 		gunList.add( new guessFactorGun() );
 		//gunList.add( new kdtreeGuessFactorGun(800, true) ); // bad idea
@@ -76,12 +73,12 @@ public class fighterBotConfig {
 		// -------------------------------------------------------------
 		// SUPER IMPORTANT FOR PROPER CACHING
 		// TO CALL kdtreeGuessFactorGun IN DESCENDANT neighborNUM ORDER
-		gunList.add( new kdtreeGuessFactorGun(1600) );
-		gunList.add( new kdtreeGuessFactorGun(800) );
-		gunList.add( new kdtreeGuessFactorGun(400) );
 		gunList.add( new kdtreeGuessFactorGun(200) );
 		gunList.add( new kdtreeGuessFactorGun(100) );
 		gunList.add( new kdtreeGuessFactorGun(50) );
+		gunList.add( new kdtreeGuessFactorGun(10) );
+		gunList.add( new kdtreeGuessFactorGun(5) );
+		gunList.add( new kdtreeGuessFactorGun(1) );
 		// -------------------------------------------------------------
 		gunList.add( new guessFactorGun() );
 		gunList.add( new assistedGFGun() );
