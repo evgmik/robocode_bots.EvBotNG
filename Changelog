@@ -1,5 +1,11 @@
 # Changelog
 
+## v9.0
+
+- new framelib
+  - added cached versions of MEA and gunTreePoint calculations
+  - isWithinMEA moved to the base gun as isFiringSolutionWithinMEA
+
 ## v8.9
 
 - new framelib
@@ -8,6 +14,11 @@
   - increase safety corridor overlap tolerance by just a bit
   - Wave draw physical MEA
   - speed up: Wave calculates MEA, posMEA, negMEA only once
+
+in retrospect: 
+- melee performance droped quite a lot, looks like MEA
+  calculation are too CPU intensive.
+- 1on1 performance slightly increased a bit
 
 ## v8.8
 
