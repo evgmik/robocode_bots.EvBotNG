@@ -1,10 +1,22 @@
 # Changelog
 
+## v9.1
+
+- new framelib
+  - analyze bullet hit bullet to gain info which way enemy fires
+  - clean up: gunManager use of  method addRealHitGF for hit by bullet cases
+  - waveWithBullets new method getAngleGF
+
 ## v9.0
 
 - new framelib
   - added cached versions of MEA and gunTreePoint calculations
   - isWithinMEA moved to the base gun as isFiringSolutionWithinMEA
+
+in retrospect: 
+- melee performance increased a bit, but still lower than v8.8.
+  Shall I remove physical MEA check?
+- 1on1 performance is the same as v8.9
 
 ## v8.9
 
@@ -16,8 +28,8 @@
   - speed up: Wave calculates MEA, posMEA, negMEA only once
 
 in retrospect: 
-- melee performance droped quite a lot, looks like MEA
-  calculation are too CPU intensive.
+- melee performance droped quite a lot, looks like mea
+  calculation are too cpu intensive.
 - 1on1 performance slightly increased a bit
 
 ## v8.8
