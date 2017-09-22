@@ -1,5 +1,14 @@
 # Changelog
 
+## v9.2
+
+- new framelib
+  - fixed bug in kdTree. kdTree cluster is returned sorted from worst to best!
+    - this bug was introduced around v8.4, also cached cluster worked wrong way
+    - as result kdTree guns were crap
+  - added calcFlipedLateralVelocityPositionFromCoord to utilize game symmetry
+  - when adding git to the tree, adding a mirrored to latteral velocity hit too.
+
 ## v9.1
 
 - new framelib
