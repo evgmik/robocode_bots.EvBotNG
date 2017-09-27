@@ -1,5 +1,12 @@
 # Changelog
 
+## v9.4
+
+- switched off experimental waveSurfer, back to exactPath motion
+
+- new framelib
+  - enhancement: prevent aligning of the bot along x-axis when it reaches final point
+
 ## v9.3
 
 THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
@@ -11,6 +18,11 @@ THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
   - fixed anti-kdTree gun array creation and storage
   - show white box where the wave hits the bot path
   - graphics shows current escape angle on the incoming waves
+
+in retrospect: 
+- melee performance not tested
+- 1on1 performance is worst by about 2%, bots often stops on a wave cross,
+  so next wave has smaller MEA. Need to think how to surf more than 1 wave
 
 ## v9.2
 
