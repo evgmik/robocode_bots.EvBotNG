@@ -1,11 +1,24 @@
 # Changelog
 
+## v9.5
+
+THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
+
+- Using new experimental waveSurfer motion
+
+- new framelib
+  - Fixed wave surfer logic. Consider all points on a wave, not just the first one
+
 ## v9.4
 
 - switched off experimental waveSurfer, back to exactPath motion
 
 - new framelib
   - enhancement: prevent aligning of the bot along x-axis when it reaches final point
+
+in retrospect: 
+- melee performance miraculously improved, I think something glitch in the rumble
+- 1on1 performance is the best among all versions. Just a touch better than v9.2
 
 ## v9.3
 
