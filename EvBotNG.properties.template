@@ -1,7 +1,8 @@
 #Robot Properties
 #Sat Aug 11 01:30:45 EDT 2012
-robot.description=EvBotNG (New Generation)
-robocode.version=1.9.2
+robot.description=EvBotNG (New Generation), mega bot capable of 1on1 and melee
+robot.webpage=http\://robowiki.net/?EvBotNG
+robocode.version=1.9.2.5
 robot.java.source.included=true
 robot.version=v0.1
 robot.author.name=beaming
