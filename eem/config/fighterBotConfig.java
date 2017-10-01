@@ -54,10 +54,11 @@ public class fighterBotConfig {
 		gunList.add( new kdtreeGuessFactorGun(10) );
 		gunList.add( new kdtreeGuessFactorGun(5) );
 		gunList.add( new kdtreeGuessFactorGun(1) );
-		gunList.add( new guessFactorGun() );
+		//gunList.add( new kdtreeGuessFactorGun(200).timeDecayOn(0.995) );
 		//gunList.add( new kdtreeGuessFactorGun(800, true) ); // bad idea
 		//gunList.add( new kdtreeGuessFactorGun(1600, true) ); // bad idea
 		// -------------------------------------------------------------
+		gunList.add( new guessFactorGun() );
 		gunList.add( new randomGun() );
 		gunList.add( new assistedGFGun() );
 		gunList.add( new decayingGuessFactorGun() );
