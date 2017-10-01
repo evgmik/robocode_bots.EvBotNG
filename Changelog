@@ -1,5 +1,29 @@
 # Changelog
 
+## v9.6
+
+THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
+
+- Still using new experimental waveSurfer motion
+
+- new framelib
+  - Logic modification
+    - if we get hit by bullet, we immediately update firing GF danger in waves in the air
+      - hopefully my bot will not be hit by several bullet with the same GF in a row
+    
+  - Enhancements
+    - more efficient wave creation
+    - simplified wave creation
+    - Changed wave creation and update logic
+    - use a common method to calculate enemy wave danger
+    - added method to calculate incoming wave danger
+    - added draft of time decay capabilities for kdTree gun (bad round border crossing)
+    - record gfHit fired time for analysis
+    - gfHit keeps track when it was fired
+    - wave with bullets marks head on direction
+    - master bot set wave target when fires
+
+
 ## v9.5
 
 THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
@@ -8,6 +32,10 @@ THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
 
 - new framelib
   - Fixed wave surfer logic. Consider all points on a wave, not just the first one
+
+in retrospect: 
+- melee performance untested
+- 1on1 performance is slightly worse but better than the surfer version v9.3
 
 ## v9.4
 
