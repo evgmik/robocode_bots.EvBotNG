@@ -1,5 +1,18 @@
 # Changelog
 
+## v9.7
+
+THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
+
+- Still using new experimental waveSurfer motion
+
+- new framelib
+  - Logic modification
+    - enemy wave gf have contribution from real hits and visited gf, and not only real hits
+  - Enhancements
+    - new helper class to do math with arrays
+    - getGFdanger returns probability density instead of raw numbers
+
 ## v9.6
 
 THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
@@ -23,6 +36,9 @@ THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
     - wave with bullets marks head on direction
     - master bot set wave target when fires
 
+In retrospect: 
+- melee performance untested
+- 1on1 performance is slightly better than surfer version v9.5
 
 ## v9.5
 
