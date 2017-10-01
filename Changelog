@@ -1,5 +1,18 @@
 # Changelog
 
+## v9.8
+
+THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
+
+- Still using new experimental waveSurfer motion
+
+### new framelib
+Logic modification
+- visited stats danger, enables only if unknownGun perfroming better than a threshold
+
+Enhancements
+- added new method getBestGunAgainstBot
+
 ## v9.7
 
 THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
@@ -7,12 +20,17 @@ THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
 - Still using new experimental waveSurfer motion
 - updated bot properties
 
-- new framelib
+### new framelib
   - Logic modification
     - enemy wave gf have contribution from real hits and visited gf, and not only real hits
   - Enhancements
     - new helper class to do math with arrays
     - getGFdanger returns probability density instead of raw numbers
+
+### Bot performance in  retrospect: 
+- melee performance untested
+- 1on1 performance is slightly better than surfer version v9.6, but it was in
+  rummble for limited time with only 370 pairings
 
 ## v9.6
 
