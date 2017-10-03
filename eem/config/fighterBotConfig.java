@@ -208,8 +208,8 @@ public class fighterBotConfig {
 			proxy = new realBotProxy( gInfo.getMasterBot() );
 			_radar = new universalRadar( bot );
 			//_motion = new dangerMapMotion( bot );
-			//_motion = new exactPathDangerMotion( bot );
-			_motion = new waveSurfingMotion( bot );
+			_motion = new exactPathDangerMotion( bot );
+			//_motion = new waveSurfingMotion( bot );
 			_gunManager = new masterBotGunManager( bot );
 			_gunManager.setGunsMap( masterBotGunMapForGameType );
 
