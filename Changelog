@@ -1,5 +1,9 @@
 # Changelog
 
+## v9.9
+
+Disable waveSurfer, back to exactPath motion
+
 ## v9.8
 
 THIS VERSION IS NOT MELEE CAPABLE DUE TO MOTION CHANGE
@@ -12,6 +16,12 @@ Logic modification
 
 Enhancements
 - added new method getBestGunAgainstBot
+
+### Bot performance in  retrospect: 
+- melee performance untested
+- 1on1 performance is slightly better than any other surfer version v9.7, v9.6, and v9.5,
+  but it still not as good as v9.4
+
 
 ## v9.7
 
