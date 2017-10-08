@@ -1,5 +1,11 @@
 # Changelog
 
+## v10.1
+
+### new framelib
+Logic modification
+- less agressive survival
+
 ## v10.0
 
 ### new framelib
@@ -15,6 +21,9 @@ Enhancements
   - gunHeat
   - bulletGiveBackByEnergy
 
+### Bot performance in  retrospect: 
+- melee still very bad, but quite better that v9.9
+- 1on1 performance is slightly worse than v9.9, survival increased about 1%
 
 ## v9.9
 
