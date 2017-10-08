@@ -12,7 +12,7 @@ function get_version2refresh () {
 function get_rating () {
 first=1;
 echo "["
-git tag | while read version
+git tag | sort -V | while read version
 do
 	bot="${bot_base} ${version}"
 
