@@ -1,8 +1,29 @@
 # Changelog
 
+## v10.0
+
+### new framelib
+Logic modification
+- smart energy management, attempt to survive instead of fire energetic bullets
+
+Enhancements
+- keep track of last fired bullet energy
+- new functions:
+  - energyGainPerTickFromEnemy
+  - energyDrainPerTickByEnemy
+  - enemyHitRate
+  - gunHeat
+  - bulletGiveBackByEnergy
+
+
 ## v9.9
 
 Disable waveSurfer, back to exactPath motion
+
+### Bot performance in  retrospect: 
+- melee still very bad
+- 1on1 performance is slightly better than any other versions, quite better
+  than surfer versions
 
 ## v9.8
 
