@@ -1,10 +1,29 @@
 # Changelog
 
+## v10.2
+
+### new framelib
+Logic modification
+- fixed bugs in bullets' safety corridor logic
+- remove safety corridor requirement to be large
+
+Enhancements
+- added bulletShieldGun (currently unused)
+
 ## v10.1
 
 ### new framelib
 Logic modification
 - less agressive survival
+
+### Bot performance in  retrospect: 
+- melee still very bad, but quite better that v10.0, looks like survival is way better
+- 1on1 performance is slightly better than v10.0, strangely I do not get APS
+gain against strong bots, as I was getting in v10.0, but overall performance
+increased. Almost on pair with v9.9
+
+TODO: need to investigate what helps against top bots (DrussGT, Diamond)
+as in v10.0 but make it worse against a weaker bots and overall
 
 ## v10.0
 
