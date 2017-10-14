@@ -1,5 +1,20 @@
 # Changelog
 
+## v10.3
+
+### new framelib
+Logic modification
+- master bot fires virtual waves each tic
+- relaxing corridor overlap check
+- small speed up for 1on1 case
+
+Enhancements
+- profiler outputs total exec time
+- a bit of speedup of profiler start code
+
+Bug fix
+- wrong gun stats report
+
 ## v10.2
 
 ### new framelib
@@ -9,6 +24,10 @@ Logic modification
 
 Enhancements
 - added bulletShieldGun (currently unused)
+
+### Bot performance in  retrospect: 
+- melee still very bad but there are enough battles to trust this number
+- 1on1 performance is slightly better than v10.1, but still a bit worse than v9.9
 
 ## v10.1
 
