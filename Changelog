@@ -1,5 +1,13 @@
 # Changelog
 
+## v10.4
+
+### new framelib
+Enhancements
+- speed up of gun performance evaluation
+- nicer guns report
+
+
 ## v10.3
 
 ### new framelib
@@ -14,6 +22,11 @@ Enhancements
 
 Bug fix
 - wrong gun stats report
+
+### Bot performance in  retrospect: 
+- melee still very bad but not sure I can trust small enhancement
+- 1on1 performance is slightly worse than v10.2, but surprisingly APS against
+  top bot improved. Maybe I should have some logic for virtual wave enabling.
 
 ## v10.2
 
