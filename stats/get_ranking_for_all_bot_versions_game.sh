@@ -6,7 +6,7 @@ bot_base="$1"
 game="$2"
 
 function get_version2refresh () {
-	git tag | tail -1 
+	git tag | sort -V | tail -1 
 }
 
 function get_rating () {
