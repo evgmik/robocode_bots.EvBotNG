@@ -1,5 +1,14 @@
 # Changelog
 
+## v10.7
+
+### new framelib
+Logic change
+- different kdTreePoint calculation formula
+
+Enhancements
+- fixed center of mass formula (still unused)
+
 ## v10.6
 
 ### new framelib
@@ -12,6 +21,10 @@ Enhancements
 - added timer class for future use
 - aiming condition does not use time in the future
 - gunTreePoint holds its cache the whole round
+
+### Bot performance in  retrospect: 
+- melee still very bad
+- 1on1 performance is slightly better than v10.5
 
 
 ## v10.5
