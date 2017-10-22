@@ -1,15 +1,30 @@
 # Changelog
 
+## v10.9
+
+### new framelib
+- fire virtual wave only first 200 tics
+- asking 1 mS Thread.Sleep if there is spare time
+- gunTreePoint uses averageSpeed
+- gunTreePoint uses number of bots back
+
+
 ## v10.8
 
 ### new framelib
+
 Logic change
-- fire virtual wave only first 200 tics
-- add virtual bullets to virtual wave only for the first 200 tics as well
+
+- add virtual bullets to virtual wave only for the first 200 tics
 
 Enhancements
+
 - remove bullets which miss (to update gun hit rates) only for the first 200
   tics. After this time it just give small correction but consumes a lot of CPU.
+
+### Bot performance in  retrospect: 
+- melee still very bad
+- 1on1 performance is slightly dropped  by about 0.5% in APS
 
 
 ## v10.7
