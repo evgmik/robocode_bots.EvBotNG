@@ -1,5 +1,16 @@
 # Changelog
 
+## v11.0
+
+## new framelib
+
+Enhancements
+
+- list safe removal of fighterBot waves from myWaves list
+- bug fix: virtual waves were fired twice, and were not properly removed
+
+
+
 ## v10.9
 
 ### new framelib
@@ -8,6 +19,11 @@
 - gunTreePoint uses averageSpeed
 - gunTreePoint uses number of bots back
 
+### Bot performance in  retrospect: 
+- melee improve a lot
+- 1on1 performance is slightly improved vs v10.8 but still  not as good as
+  v10.7. Looks like virtual bullets are bad idea for 1on1, or finite number of
+  virtual waves. Need to do benchmarks.
 
 ## v10.8
 
