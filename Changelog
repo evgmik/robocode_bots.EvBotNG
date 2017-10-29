@@ -1,5 +1,20 @@
 # Changelog
 
+## v11.1
+
+## new framelib
+
+Logic change
+
+- use kdTreeGun(100) instead of kdTreeGun(10) for flattener
+
+Enhancements
+
+- can log kdtree points for off-line analysis
+
+- melee is still bad
+- 1on1 performance is slightly improved vs v10.9
+
 ## v11.0
 
 ## new framelib
