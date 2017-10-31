@@ -1,8 +1,18 @@
 # Changelog
 
+## v11.3
+
+### new framelib
+
+Logic change
+
+- gunTreePoint weights redone
+- added bullet velocity as coordinate for gunTreePoint
+
+
 ## v11.2
 
-## new framelib
+### new framelib
 
 Logic change
 
@@ -13,10 +23,15 @@ Enhancements
 - off-line anlusis tracks target bot name
 - kdTree switched to weighted one, to simplify logic
 
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the overall best
+
 
 ## v11.1
 
-## new framelib
+### new framelib
 
 Logic change
 
@@ -26,17 +41,21 @@ Enhancements
 
 - can log kdtree points for off-line analysis
 
+### Bot performance in  retrospect: 
+
 - melee is still bad
 - 1on1 performance is slightly improved vs v11.0
 
 ## v11.0
 
-## new framelib
+### new framelib
 
 Enhancements
 
 - list safe removal of fighterBot waves from myWaves list
 - bug fix: virtual waves were fired twice, and were not properly removed
+
+### Bot performance in  retrospect: 
 
 - melee is still bad
 - 1on1 performance is slightly improved vs v10.9
@@ -50,6 +69,7 @@ Enhancements
 - gunTreePoint uses number of bots back
 
 ### Bot performance in  retrospect: 
+
 - melee improve a lot
 - 1on1 performance is slightly improved vs v10.8 but still  not as good as
   v10.7. Looks like virtual bullets are bad idea for 1on1, or finite number of
