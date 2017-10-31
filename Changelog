@@ -20,7 +20,7 @@ Logic change
 
 Enhancements
 
-- off-line anlusis tracks target bot name
+- off-line analysis tracks target bot name
 - kdTree switched to weighted one, to simplify logic
 
 ### Bot performance in  retrospect: 
