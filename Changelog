@@ -1,5 +1,13 @@
 # Changelog
 
+## v11.4
+
+### new framelib
+
+Logic change
+
+- anti-rammer improvements attempt
+
 ## v11.3
 
 ### new framelib
@@ -8,6 +16,11 @@ Logic change
 
 - gunTreePoint weights redone
 - added bullet velocity as coordinate for gunTreePoint
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the overall best
 
 
 ## v11.2
