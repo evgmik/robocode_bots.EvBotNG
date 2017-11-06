@@ -1,5 +1,19 @@
 # Changelog
 
+## v11.5
+
+### new framelib
+
+Logic change
+
+- anti-rammer improvements attempt
+- added special danger for points inside bots overlap zone
+- wave danger use the full bot shadow, not just nearest gf danger
+
+Enhancements
+
+- added euclidean distance calculation function
+
 ## v11.4
 
 ### new framelib
@@ -7,6 +21,11 @@
 Logic change
 
 - anti-rammer improvements attempt
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the overall best (but actually by tiny bit compared to v11.3)
 
 ## v11.3
 
