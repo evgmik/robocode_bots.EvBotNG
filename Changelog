@@ -1,5 +1,25 @@
 # Changelog
 
+## v11.6
+
+### new framelib
+
+Enhancements
+
+- added calculateDangerFromEnemyWaves for dangerPathPoint
+- wave danger using variable for danger not a magic number
+- removed duplicate code
+- bullet danger checks for a border case and normalizes more than 360 degree angles
+  separation
+
+Bug-fix
+
+- wave danger with bot corridor is properly calculated, before it was using
+  only statistical GF danger and no bullets danger
+- fixed bot shadow function, it was not rotating bot shadow with respect to head on
+  angle
+
+
 ## v11.5
 
 ### new framelib
@@ -13,6 +33,11 @@ Logic change
 Enhancements
 
 - added euclidean distance calculation function
+
+### Bot performance in  retrospect: 
+
+- due to the bug hopefully fixed in v11.6 APS dropped, strangely not as much
+  as I would expect for such severe bug
 
 ## v11.4
 
