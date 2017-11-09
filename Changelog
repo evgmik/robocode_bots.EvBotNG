@@ -1,5 +1,19 @@
 # Changelog
 
+## v11.7
+
+- disable profiling output
+
+### new framelib
+
+Logic change
+
+- added danger for slow motion while on the wave
+
+Enhancements
+
+- added profiling toggle
+
 ## v11.6
 
 ### new framelib
@@ -19,6 +33,10 @@ Bug-fix
 - fixed bot shadow function, it was not rotating bot shadow with respect to head on
   angle
 
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is fixed though it is a bit lower than v11.4
 
 ## v11.5
 
