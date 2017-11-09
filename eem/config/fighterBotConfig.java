@@ -203,6 +203,8 @@ public class fighterBotConfig {
 	}
 
 	public void setDrivers( fighterBot bot,  gameInfo gInfo, boolean isItMasterBotDriver ) {
+		gInfo.isProfiling = false;
+
 		if ( isItMasterBotDriver ) {
 			// this bot is in charge of the master bot
 			proxy = new realBotProxy( gInfo.getMasterBot() );
