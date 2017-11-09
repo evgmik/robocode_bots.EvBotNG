@@ -1,5 +1,15 @@
 # Changelog
 
+## v11.8
+
+### new framelib
+
+Logic change
+
+- using average lateral velocity instead of average speed for kdTree
+  parameters
+
+
 ## v11.7
 
 - disable profiling output
@@ -13,6 +23,12 @@ Logic change
 Enhancements
 
 - added profiling toggle
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the best but only by little
+
 
 ## v11.6
 
