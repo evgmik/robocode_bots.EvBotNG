@@ -1,5 +1,16 @@
 # Changelog
 
+## v11.9
+
+### new framelib
+
+Logic change
+
+- keep track of virtual/real hits/waves
+- weights of above events are a bit different
+- TODO: there is double counting of virtual bullets if real hit happens
+
+
 ## v11.8
 
 ### new framelib
@@ -8,6 +19,11 @@ Logic change
 
 - using average lateral velocity instead of average speed for kdTree
   parameters
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the best but only by little
 
 
 ## v11.7
