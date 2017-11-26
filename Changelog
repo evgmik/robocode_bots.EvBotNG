@@ -1,5 +1,18 @@
 # Changelog
 
+## v11.9a
+
+### new framelib
+
+Logic change
+
+- Added inferred gf hit attribute, for gf which I try to deduce from the game
+  symmetry
+- changed calculation of decay for GF, it takes in account only round
+- new function which returns tic Round number
+
+
+
 ## v11.9
 
 ### new framelib
@@ -10,6 +23,10 @@ Logic change
 - weights of above events are a bit different
 - TODO: there is double counting of virtual bullets if real hit happens
 
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the best but only by little
 
 ## v11.8
 
