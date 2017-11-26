@@ -49,10 +49,14 @@ public class fighterBotConfig {
 		// SUPER IMPORTANT FOR PROPER CACHING
 		// TO CALL kdtreeGuessFactorGun IN DESCENDANT neighborNUM ORDER
 		gunList.add( new kdtreeGuessFactorGun(200) );
+		//gunList.add( new kdtreeGuessFactorGun(200).timeDecayOn(.8) );
 		gunList.add( new kdtreeGuessFactorGun(100) );
 		gunList.add( new kdtreeGuessFactorGun(50) );
+		//gunList.add( new kdtreeGuessFactorGun(50).timeDecayOn(.8) );
 		gunList.add( new kdtreeGuessFactorGun(10) );
+		//gunList.add( new kdtreeGuessFactorGun(10).timeDecayOn(.8) );
 		gunList.add( new kdtreeGuessFactorGun(5) );
+		//gunList.add( new kdtreeGuessFactorGun(5).timeDecayOn(.8) );
 		gunList.add( new kdtreeGuessFactorGun(1) );
 		//gunList.add( new kdtreeGuessFactorGun(200).timeDecayOn(0.995) );
 		//gunList.add( new kdtreeGuessFactorGun(800, true) ); // bad idea
