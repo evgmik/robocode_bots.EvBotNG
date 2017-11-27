@@ -1,5 +1,22 @@
 # Changelog
 
+# v12.0
+
+### new framelib
+
+Logic change
+
+- Use safety zone concept. This is for non learning guns: if a bot was not hit
+  in a certain place it is probably safe place. Once certain threshold is
+  reached, switch to anti-GF behaviour, where all visited stats are avoided.
+- kdtreeGuessFactorGun added gfHit width attribute
+- probability density use smallest value as a base
+- realHitsGun initializes some values/attributes
+
+Bug-fix
+
+- gfHit coordinates are properly flipped now
+
 ## v11.9a
 
 ### new framelib
@@ -11,7 +28,10 @@ Logic change
 - changed calculation of decay for GF, it takes in account only round
 - new function which returns tic Round number
 
+### Bot performance in  retrospect: 
 
+- melee is still bad
+- 1on1 performance is the best but only by little
 
 ## v11.9
 
