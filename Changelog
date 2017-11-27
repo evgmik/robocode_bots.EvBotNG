@@ -1,5 +1,13 @@
 # Changelog
 
+# v12.1
+
+### new framelib
+
+Logic change
+
+- retune flattener
+
 # v12.0
 
 ### new framelib
@@ -16,6 +24,11 @@ Logic change
 Bug-fix
 
 - gfHit coordinates are properly flipped now
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance plunged down. I blame new flattener
 
 ## v11.9a
 
