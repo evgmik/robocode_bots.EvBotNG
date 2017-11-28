@@ -1,5 +1,18 @@
 # Changelog
 
+# v12.2
+
+### new framelib
+
+Logic change
+
+- non learning guns flattener redone
+
+Improvement
+
+- added safety net against supplied zero bot danger width
+
+
 # v12.1
 
 ### new framelib
@@ -7,6 +20,13 @@
 Logic change
 
 - retune flattener
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is better but not is good as v11.9a. Needs more work on
+  flattener.
+
 
 # v12.0
 
