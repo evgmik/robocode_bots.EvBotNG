@@ -1,5 +1,13 @@
 # Changelog
 
+# v12.3
+
+### new framelib
+
+Logic change
+
+- Flattener enabling threshold is higher
+
 # v12.2
 
 ### new framelib
@@ -11,6 +19,12 @@ Logic change
 Improvement
 
 - added safety net against supplied zero bot danger width
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is better but not is good as v11.9a. Needs more work on
+  flattener.
 
 
 # v12.1
