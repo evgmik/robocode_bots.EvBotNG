@@ -1,5 +1,17 @@
 # Changelog
 
+# v12.4
+
+### new framelib
+
+Logic change
+
+- using round number (instead of number of bots) as dimension for gunTreePoint
+
+Improvement
+
+- added setRealHitWidth method
+
 # v12.3
 
 ### new framelib
@@ -7,6 +19,11 @@
 Logic change
 
 - Flattener enabling threshold is higher
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is almost as good as  v11.9a.
 
 # v12.2
 
