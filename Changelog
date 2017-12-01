@@ -1,5 +1,14 @@
 # Changelog
 
+# v12.5
+
+### new framelib
+
+Logic change
+
+- gunTreePoint: increased weight of average lateral speed
+- gunTreePoint: lateral speed average is lateral at every time
+
 # v12.4
 
 ### new framelib
@@ -11,6 +20,11 @@ Logic change
 Improvement
 
 - added setRealHitWidth method
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is a bit worse than v12.3
 
 # v12.3
 
