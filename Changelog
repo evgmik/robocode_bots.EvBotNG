@@ -1,5 +1,14 @@
 # Changelog
 
+# v12.7
+
+
+### new framelib
+
+Bug fixes
+
+- in the bullets shadow code: the shadow size was often overestimated
+
 # v12.6
 
 ### new framelib
@@ -8,6 +17,11 @@ Logic change
 
 - gunTreePoint: undo increased weight of average lateral speed. Back to v12.3
 - gunTreePoint: use last lateral speed change time instead of round number
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is the best ever though by only a small margin
 
 
 # v12.5
