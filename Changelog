@@ -1,13 +1,32 @@
 # Changelog
 
-# v12.7
+# v12.8
 
+### new framelib
+
+Logic change
+
+- when look for safety shadow, allow bullet and wave to travel at least 2 tics
+
+Improvements
+
+- use bisection to find bullet intersecting a wave
+- hit-miss tree has its own size limit
+
+# v12.7
 
 ### new framelib
 
 Bug fixes
 
 - in the bullets shadow code: the shadow size was often overestimated
+
+### Bot performance in  retrospect: 
+
+- melee is still bad
+- 1on1 performance is dropped by 0.4% in APS compared to v12.6. 
+  I see no explanation why so.  Is it a glitch in stats?
+
 
 # v12.6
 
